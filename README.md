@@ -19,7 +19,7 @@ Frida is one of the best tools to use during an application penetration testing.
  # Requirements
        Python 3.6
        
-       pip install https://github.com/lief-project/packages/blob/lief-master-latest/pylief-0.9.0.dev.zip?raw=true
+       pip install lief
        pip install xtract
        
 # USAGE
