@@ -19,9 +19,17 @@ Frida is one of the best tools to use during an application penetration testing.
  # Requirements
        Python 3.6
        
+       pip install apk-signer
        pip install lief
        pip install xtract
        
 # USAGE
  
      python frida_injection.py
+     
+## NOTE
+ If signing of apk fails then sign your apk manually i've checked the code on my Infinix HOT 8 it's working 
+ 
+ ## IMPROVEMENTS
+ 
+ Pull requests & issues are always welcomed 
