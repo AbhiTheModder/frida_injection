@@ -55,7 +55,10 @@ Frida is one of the best tools to use during an application penetration testing.
      python frida_injection.py
      
 ## NOTE
- If signing of apk fails then sign your apk manually i've checked the code on my Infinix HOT 8 it's working 
+ Now you'll think why i made this as a new repo ?
+       The reason is simple that Jorge stopped the work and furthur improvements on it and i'm a believer of non-root so i thought to continue this project....😊😊
+ 
+ 
  
  ## IMPROVEMENTS
  
