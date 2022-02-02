@@ -21,6 +21,20 @@ Frida allows:
 4)Disable SSL Pinning and root checkers. and many more things....
 
 Frida is one of the best tools to use during an application penetration testing.
+ 
+ ## What is this script?
+ 
+  The script does the following:
+
+1 Unzips the APK passed as input.
+2 Asks for the architecture of the Android device. There are two options: The architecture is known, then the gadget is injected only for that architecture. The architecture is unknow, then the gadget is injected in all architectures.
+3 Asks for the library to be injected, then downloads the last gadget from Frida repository and injects it.
+4 Removes the old signature.
+5 Generates the APK with the name my_app.apk
+ 
+ # IDEA 
+ 
+ Executable formats include libraries that are linked with executable. In the loading phase of the executable, the loader iterates over these libraries and map them in the memory space of the process. Once mapped it calls its constructor. The idea is to add frida-agent.so as a dependency of native libraries embedded in the APK.
 
 ### NOTE
  This tool is inspired by "https://gitlab.com/jlajara/frida-gadget-lief-injector" Jorge/Frida gadget Lief injection but with new UI 
@@ -29,10 +43,12 @@ Frida is one of the best tools to use during an application penetration testing.
        Python 3.6
        
  lief installation
-        pip install lief
+        
+       pip install lief
  
  xtract installation:
-        pip install xtract
+        
+       pip install xtract
        
 # USAGE
  
@@ -44,3 +60,10 @@ Frida is one of the best tools to use during an application penetration testing.
  ## IMPROVEMENTS
  
  Pull requests & issues are always welcomed 
+ 
+ 
+ ## Video
+ 
+ Video by <a href="https://twitter.com/leonishan_">Jorge Lajara</a> 
+ 
+ [![asciicast](https://asciinema.org/a/HEz43ylizrdbnYy1nchZ2Hdq6.svg)](https://asciinema.org/a/HEz43ylizrdbnYy1nchZ2Hdq6)
