@@ -9,7 +9,6 @@ import os
 import pathlib
 import requests
 import re
-import apk-signer
 from xtract import xtract
 
 print("-::::::::::      :::::::::::-     -::.      :::::::::::-         :::::")        
