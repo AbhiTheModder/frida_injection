@@ -148,8 +148,7 @@ apk_name = "app_release.apk"
 shutil.make_archive("new", 'zip', workingdir)
 shutil.move("new.zip", apk_name)
 
-# Signer
-print("[+] APK signing...")
-apk-signer app_release.apk
+
+
 
 print(f"[+] SUCCESS!! Your new apk is : {apk_name}. Now you should sign it.\n")
