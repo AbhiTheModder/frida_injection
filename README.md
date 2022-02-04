@@ -60,7 +60,7 @@ Frida is one of the best tools to use during an application penetration testing.
           apt up -y && apt update
           pip install lief
           pip install xtract
-          git clone https://github.com/AbhiTheModder/frida_injection
+          wget https://github.com/AbhiTheModder/frida_injection/releases/download/release-v1.1/frida_injection.py
  
  Now run frida_injection.py
           
