@@ -41,6 +41,7 @@ Frida is one of the best tools to use during an application penetration testing.
  
  # Requirements
        Python 3.6
+       apt install python, python2
        
  lief installation
         
@@ -49,6 +50,20 @@ Frida is one of the best tools to use during an application penetration testing.
  xtract installation:
         
        pip install xtract
+ 
+ ## INSTALLATION
+ ###     Termux,Linux & Windows
+ 
+ Not checked on MacOS
+  
+          pkg update, upgrade
+          apt up -y && apt update
+          pip install lief
+          pip install xtract
+          git clone https://github.com/AbhiTheModder/frida_injection
+ 
+ Now run frida_injection.py
+          
        
 # USAGE
  
